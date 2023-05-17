@@ -15,12 +15,12 @@ Parameters:
   AudioLanguageCode:
     Type: String
     Description: ISO 639-1 code of the audio language to be transcribed
-    Default: en
+    Default: zh
 
   AudioLanguageTranscribeCode:
     Type: String
     Description: Amazon Transcribe code of the audio language to be transcribed
-    Default: en-US  
+    Default: zh-TW
     
   # Lambda functions parameters
   LambdaOnConnectFunctionName:
